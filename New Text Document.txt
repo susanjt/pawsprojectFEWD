@@ -1,0 +1,16 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@300;400;1&display=swap" rel="stylesheet">
+&family=Architects+Daughter
+&family=Eczar
+&family=Indie+Flower
+&family=Khand
+&family=Nunito:ital@0
+
+css
+font-family: 'Amaranth', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Eczar', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Khand', sans-serif;
+font-family: 'Nunito', sans-serif;
