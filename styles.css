@@ -10,18 +10,54 @@
       width: 100%;
     }
   }
-
-
 .header {
     display: flex;
-    font-size: 400px;
-}
-.element {
-    background-image: ("images\golden.jpg"), ("images\walkingdog.jpg");
-    background-position: top left, center right;
-    background-repeat: no-repeat, no-repeat;
+    font-size: relative-size;
+    background-color: #4F3B3B;
 }
 
+.header h1 {
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.main content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.box {
+  width: max-content;
+  height: auto;
+  margin: 5px 10px;
+}
+
+.image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #B4B4B4;
+} 
+.image image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 1px solid #000000;
+}  
+
+.aside {
+  background-color: #c2bbbb;
+display: flex;
+flex-direction: column;
+font-size: 20px;
+}
 
 .column {
     float: left;
