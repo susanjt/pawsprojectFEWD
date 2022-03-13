@@ -1,16 +1,22 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@300;400;1&display=swap" rel="stylesheet">
-&family=Architects+Daughter
-&family=Eczar
-&family=Indie+Flower
-&family=Khand
-&family=Nunito:ital@0
-
-css
-font-family: 'Amaranth', sans-serif;
-font-family: 'Architects Daughter', cursive;
-font-family: 'Eczar', serif;
-font-family: 'Indie Flower', cursive;
-font-family: 'Khand', sans-serif;
-font-family: 'Nunito', sans-serif;
+<div class="newsletter">
+      <div class="grid-container">
+        <h2>Like coupons? Join our newsletter!</h2>
+        <form class="form" action="">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Enter first name" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Enter last name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter email address" required>
+          </div>
+          <div class="form-group" id="submit">
+            <button id="btn" class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
