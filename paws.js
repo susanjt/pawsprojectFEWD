@@ -1,7 +1,7 @@
 //hamburger tog
 
 const toggleButton = document.getElementById ('hamburger');
-const navLinks = document.getElementById('nav-links');
+const navLinks = document.getElementById('navLinks');
 
 toggleButton.addEventListener('click', () => {
     primaryNav.classList.toggle('active')
