@@ -4,9 +4,12 @@ const toggleButton = document.getElementById ('hamburger');
 const navLinks = document.getElementById('navLinks');
 
 toggleButton.addEventListener('click', () => {
-    primaryNav.classList.toggle('active')
+    navLinks.classList.toggle('active')
 });
 
+function closeMenu() {
+    navLinks.classList.toggle ('active');
+}
 
 //submit  name email
 

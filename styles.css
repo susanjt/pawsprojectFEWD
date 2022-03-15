@@ -6,6 +6,10 @@ html, body{
   top: 0px;
 }
 
+body {
+  display: grid;
+}
+
 /*font styles*/
 font {
   font-family: 'Amiri', serif;
@@ -47,14 +51,15 @@ a:visited {
   color: #808080;
 }
 a:hover {
-  background: #404040
+  color:whitesmoke;
 }
 
 /*nav styles*/
-#navLinks {
-  width: 225px;
-  margin-right: 15px;
+ header #navLinks {
+  width: auto;
+  margin-right: 10px;
   color: #000111;
+  background-color: #4f3b3b;
 }
 
 #navLinks ul {
@@ -67,19 +72,60 @@ a:hover {
   color: #b4b4b4;
   margin-left: 5px;
   width: 100%;
-  
+  }
+
+header  logo{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row: 1;
+}
+
+header navLinks {
+  display: grid;
+  grid-column-start: -3;
+  grid-column-end: -1;
+  grid-row: 1;
 }
 
 
 
 
-
-
-
 /*footer styles*/
-.footer {
-  font-size: 75em;
+.footer content{
+  background-color: #4f3b3b;
   clear:both;
+  color: #b4b4b4;
+  font-size: 75em;
   text-align: center;
   width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    grid: "header navLinks" 5em
+          "main gallery" 30em
+          "footer footer" 5em / 
+          1fr 2fr;
+  }
+}
+  
+@media only screen and (max-width: 480px) {
+  body{
+    grid: "header" 5em
+          "toggle-button" 5em
+          "main" 20em
+          "gallery" 20em
+          "footer" 5em /
+          1fr;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    grid: "header"5em
+          "navLinks" 5em
+          "main gallery" 30em
+          "footer footer" 5em
+  }
 }
