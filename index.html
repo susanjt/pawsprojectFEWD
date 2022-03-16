@@ -11,17 +11,16 @@
 <link rel="link rel="preconnect href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="styles.css">
-<script src="paws.js"></script>
-
 <title>Home | Pawsibilities For Change</title>
 </head>
 <body>
      <!-- header/ main nav -->
     <header>
-        <div class="header" id="logo">
+        <div class= "header" id= "logo">
+            <div class= "grid-container"></div>
         <a><h1>PAWSIBILITIES FOR CHANGE</h1> <br>
             <h2>RECOVERY THROUGH RESCUE</h2></a>
-        <div class="navLinks" id="navLinks">
+        <div class= "navLinks" id= "navLinks">
            <ul>
             <a href="#home" class="active">Home</a>
             <a href="#services">Services</a>
@@ -34,47 +33,72 @@
     </div>
 </header>
     <main>
-         <div class="main" id= "content">
-            <div class="mainContent"><h3>OUR MISSION</h3>
+        <div class= "container">
+            <div class= "main" id="content">
+            <h3>OUR MISSION</h3>
                 <p>To support recovery, re-entry and rescue.    
-                    This is made possible by providing opportunities for training and support; 
-                    facilitated through pairing shelter dogs with parolees and people in recovery.</p>
-               <p>This program focuses on life skills and provides work experience through training and care for shelter and rescue dogs.</p></div>
-    <div class="gallery" id="image">
+                    This is made possible by providing opportunities for training and support;
+                    facilitated through pairing shelter dogs<br> 
+                     with parolees and people in recovery.<br>This program focuses on life skills
+                and providing work experience<br> 
+                    through training and care for shelter and rescue dogs.</p></div>
+            <div class= "gallery" id= "image">
                 <div class="item"><img class="image1" src="images\golden.jpg" alt="Golden retriever"></div>
                 <div class="item"><img class="image2" src="images\walkingdog.jpg"  alt="Man walking dog"></div>
                 <div class="item"><img class="image3" src="images\pexels-bluebird.jpg"  alt="handtopaw"></div>
                 <div class="item"><img class="image4" src="images\eric-ward.jpg" alt="man holding dog"></div>  
             </div>
-</div>
+        </div>
+    </div>    
+    <div class="info">
+    <div class="grid-container">
+      <h3>For more information about our programs, events and more, <br>
+          please provide the following:</h3>
+      <form class="form" action="">
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name" placeholder="Enter first name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name" placeholder="Enter last name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter email address" required>
+        </div>
+        <div class="form-group" id="submit">
+          <button id="btn" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
 <footer>
-        <div class="footer-content">
+        <div class= "container">
+            <div class= "footer-content">
             <p>PAWSIBILITIES FOR CHANGE</p> <p>RECOVERY THROUGH RESCUE</p>
             <p><h4>1234 Kentucky Road, Frankfort, KY 40001</h4></p>
             <p><h4> (502) 564-5555</h4></p>
-
-            <div class= "social">
-                <div class="icons">
-        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-3x"></i></a>
-        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram-square fa-3x"></i></a>
-        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-3x"></i></a>
             </div>
-        <ul>
-        </ul>
-        </div>
-        </div>
-
-        <div class="footer-menu">
-            <ul class="f-menu">
+            <div class= "social">
+                <div class= "icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-3x"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram-square fa-3x"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-3x"></i></a>
+            </div>
+            <div class= "footer-menu">
+            <ul class= "f-menu">
                 <li><a href="">People</a></li>
                 <li><a href="">Donations</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-    <div class="footer-bottom">
-    <p>copyright &copy;2022 | PAWSIBILITIES FOR CHANGE</p>
-</div>
-
+            </div>
+            <div class= "footer-bottom">
+            <p>copyright &copy;2022 | PAWSIBILITIES FOR CHANGE</p>
+            </div>
+        </div>
 </footer> 
 </main>
+<script src= "paws.js"></script>
 </body>
 </html>

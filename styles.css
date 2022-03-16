@@ -7,14 +7,11 @@ html, body{
 }
 
 body {
-  display: grid;
+ font-family: 'Amiri', serif;
+ background-color: #aacae6;
 }
 
 /*font styles*/
-font {
-  font-family: 'Amiri', serif;
-}
-
 p, li{
   font: 1em 'Amiri', serif;
 }
@@ -48,7 +45,7 @@ a:link {
   text-decoration: underline;
 }
 a:visited {
-  color: #808080;
+  color: #9e7272;
 }
 a:hover {
   color:whitesmoke;
@@ -74,7 +71,7 @@ a:hover {
   width: 100%;
   }
 
-header  logo{
+header logo{
   display: grid;
   grid-column-start: 1;
   grid-column-end: 13;
@@ -88,19 +85,25 @@ header navLinks {
   grid-row: 1;
 }
 
+.container .main {
+  background-color: #aacae6;
+} 
 
-
+.container .gallery {
+ 
+}
 
 /*footer styles*/
-.footer content{
+.footer.container {
   background-color: #4f3b3b;
   clear:both;
   color: #b4b4b4;
   font-size: 75em;
   text-align: center;
+  overflow: visible;
   width: 100%;
 }
-
+/* media queries
 @media screen and (min-width: 769px) {
   body {
     grid: "header navLinks" 5em
@@ -128,4 +131,4 @@ header navLinks {
           "main gallery" 30em
           "footer footer" 5em
   }
-}
+} */
