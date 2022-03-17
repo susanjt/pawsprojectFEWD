@@ -17,9 +17,10 @@
      <!-- header/ main nav -->
     <header>
         <div class= "header" id= "logo">
-            <div class= "grid-container"></div>
+            <div class= "grid-container">
         <a><h1>PAWSIBILITIES FOR CHANGE</h1> <br>
             <h2>RECOVERY THROUGH RESCUE</h2></a>
+          </div>
         <div class= "navLinks" id= "navLinks">
            <ul>
             <a href="#home" class="active">Home</a>
@@ -29,24 +30,37 @@
             <a href="#store">Store</a>
             <a href="#about">About</a>
             </ul>
-        <button onclick="showMe()" class="toggle-button" id="hamburger">&#9776</button>
+         <button onclick="showMe()" class="toggle-button" id="hamburger">&#9776</button>
+        <!--<button id="hamburgerBtn">&#9776;</button>-->
+        <ul id="navLinks"></ul>
     </div>
 </header>
     <main>
-        <div class= "container">
-            <div class= "main" id="content">
+            <div class="row"> 
+            <div class= "column" id="content" style="width: 100%;">
             <h3>OUR MISSION</h3>
-                <p>To support recovery, re-entry and rescue.    
-                    This is made possible by providing opportunities for training and support;
+                <p>To support recovery, re-entry and rescue.<br>    
+                    This is made possible by providing opportunities for training and support;<br>
                     facilitated through pairing shelter dogs<br> 
                      with parolees and people in recovery.<br>This program focuses on life skills
                 and providing work experience<br> 
-                    through training and care for shelter and rescue dogs.</p></div>
-            <div class= "gallery" id= "image">
-                <div class="item"><img class="image1" src="images\golden.jpg" alt="Golden retriever"></div>
-                <div class="item"><img class="image2" src="images\walkingdog.jpg"  alt="Man walking dog"></div>
-                <div class="item"><img class="image3" src="images\pexels-bluebird.jpg"  alt="handtopaw"></div>
-                <div class="item"><img class="image4" src="images\eric-ward.jpg" alt="man holding dog"></div>  
+                    through training and care for shelter and rescue dogs.</p>
+            </div>
+          </div>
+            <div class= "row" >
+              <div class="column" id="image">
+                <img class="image1" src="images\golden.jpg" alt="Golden retriever" style="width: 100%;">
+              </div>
+              <div class="column" id="image">
+                <img class="image2" src="images\walkingdog.jpg"  alt="Man walking dog" style="width: 100%;" >
+              </div>
+              <div class="row">
+              <div class="column" id="image">
+               <img class="image3" src="images\pexels-bluebird.jpg"  alt="handtopaw" style="width: 100%;">
+              </div>
+              <div class="column" id="image">
+                <img class="image4" src="images\eric-ward.jpg" alt="man holding dog"style="width: 100%;">
+              </div>  
             </div>
         </div>
     </div>    
