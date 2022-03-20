@@ -11,11 +11,6 @@ function closeMenu() {
 }
 
 
-//function toggleMenu(params) {
-    //document.getElementById("navLinks").classList.toggle("open");
-//}
-//let x= document.getElementById('hamburgerBtn');
-//x.onclick= toggleMenu;
 
 
 
