@@ -20,6 +20,6 @@ Semantic HTML,
 Media queries, and
 Accessibility.
 
-CSS Features: Navigation menu that switches from vertical links to a hamburger icon. CSS Flexbox to create responsive content that switches from a single column layout to 3 columns, depending on screen size.JavaScript used to create a information form and display submitted when submit button clicked.
+CSS Features: Navigation menu that switches from vertical links to a hamburger icon. CSS Flexbox to create responsive content that switches from a single column layout to 3 columns, depending on screen size.JavaScript used to create an information form and display submitted when submit button clicked.
 
 Photo Credits- Mitchell Luo, Simon Berger and Eric Ward- Unsplash.com; Blue Bird @pexels.com
