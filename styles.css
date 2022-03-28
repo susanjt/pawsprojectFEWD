@@ -148,6 +148,7 @@ footer {
   list-style-type: none;
   font-size: 20px;
   text-align: center;
+  justify-content: center;
 
 } 
 
@@ -181,11 +182,11 @@ input {
   border-radius: 1 1 1 1;
   border-style: double;
 
-}
+} 
 
 
 /* Responsive layout - makes the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) and (min-width:320px) {
   .column {
     width: 100%;
   }
@@ -194,8 +195,12 @@ input {
     flex-direction: column;
   }
 
- #navLinks {
+ .navLinks {
     display: none;
+  }
+
+  .navLinks.active{
+    display: block;
   }
 
   #hamburger {
@@ -225,12 +230,12 @@ input {
     text-align: center;
     line-height: 30px;
     margin-left: 0;
-    width: 90;
-    font-size: 1.2em;
+    width: 100%;
+    font-size: 1.1em;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) and (min-width: 600px) {
   .column {
     width: 100%;
   }
@@ -239,8 +244,11 @@ input {
     flex-direction: column;
   }
 
-   #navLinks {
+  .navLinks {
     display: none;
+  }
+  .navLinks.active {
+    display: block;
   }
 
 header {
@@ -274,6 +282,13 @@ header {
       } 
   }
 
+  #content {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
 
 @media only screen and (min-width: 768px) {
 header {
@@ -297,33 +312,16 @@ header {
 #hamburger {
     display: none;
   }
+
+  
+#content {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 5px;
+}
   }  
 
-@media only screen and (min-width: 992px) {
-header {
-  display: flex;
-  background-color: #590004;
-  color: #dcdcdd;
-  width: 100%;
-  justify-content: center;
-  }
-
-
-.banner {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  line-height: 50px;
-  margin-left: auto;
-  width: 100;
-  font-size: 2.5em;
-  }
-
-#hamburger {
-    display: none;
-  }
-}
-  
 @media only screen and (min-width: 1200px) {
 header {
   display: flex;
@@ -345,8 +343,8 @@ header {
 
 #content {
     text-align: left;
-    font-size: 19px;
-    font-weight: 500;
-    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 5px;
   }
 }
