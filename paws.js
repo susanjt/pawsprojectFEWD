@@ -16,11 +16,11 @@ function closeMenu() {
 
 
 //submit  name email
-let submitBtn = document.querySelector('#submit');
-let firstName = document.querySelector('#first-name');
-let lastName = document.querySelector('#last-name');
+const submitBtn = document.querySelector('#submit');
+const firstName = document.querySelector('#first-name');
+const lastName = document.querySelector('#last-name');
 
-let fName = document.querySelector('input');
+const fName = document.querySelector('input');
 
 fName.addEventListener('input', () =>{
   fName.setCustomValidity('');
@@ -36,7 +36,7 @@ fName.addEventListener('invalid', () => {
     fName.style.borderColor = '#832232';
   });
   
-  let lName = document.querySelector('#last-name');
+  const lName = document.querySelector('#last-name');
   
   lName.addEventListener('input', () =>{
     lName.setCustomValidity('');
@@ -52,7 +52,7 @@ fName.addEventListener('invalid', () => {
     lName.style.borderColor = '#832232';
   });
 
-  let email = document.querySelector('#email');
+  const email = document.querySelector('#email');
 
 email.addEventListener('input', () =>{
   email.setCustomValidity('');
